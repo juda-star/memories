@@ -122,6 +122,8 @@ const Auth = () => {
             color="primary"
             className={classes.submit}
           >
+             {/* 883480436211-7ei69m9p6fgah46mmlv6osd7h1vskum1.apps.googleusercontent.com */}
+             {/* clientId="1084797102323-bvu1q1rrfg6k18ip179ffrlc033sioml.apps.googleusercontent.com"  */}
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
           <GoogleLogin
